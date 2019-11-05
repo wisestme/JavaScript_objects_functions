@@ -35,3 +35,5 @@ const john = new Person('John', 1990, 'teacher');
 const wisest = new Person('Wisest', 1987, 'Developer')
 
 john.calculateAge();
+
+wisest.calculateAge();
