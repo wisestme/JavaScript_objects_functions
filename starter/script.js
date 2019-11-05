@@ -24,10 +24,11 @@ const Person = function(name, yearOfBirth, job) {
 	this.yearOfBirth = yearOfBirth;
 	this.job = job;
 	console.log(this);
-	this.calculateAge = function() {
+}
+
+Person.prototype.calculateAge = function() {
 		console.log(2019 - this.yearOfBirth);
 	}
-}
 
 // Instantiation
 const john = new Person('John', 1990, 'teacher');
